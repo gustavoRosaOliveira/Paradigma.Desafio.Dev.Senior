@@ -16,7 +16,7 @@ WHERE P.Salario = (
 );
 ```
 
-##Bônus: caso queiram validar o funcionamento da query criei um servidor MySQL de banco de dados, um banco de dados com os dados para teste e uma view que contém o SELECT (vide dados abaixo).
+## Bônus: caso queiram validar o funcionamento da query criei um servidor MySQL de banco de dados, um banco de dados com os dados para teste e uma view que contém o SELECT (vide dados abaixo).
 
 * Host: sql10.freesqldatabase.com
 * Database name: sql10737166
