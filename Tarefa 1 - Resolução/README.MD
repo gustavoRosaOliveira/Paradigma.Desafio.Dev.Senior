@@ -9,5 +9,5 @@
 ## Exceções customizadas
 * Na pasta "Exceptions" do projeto "Paradigma.Tarefa1" foram criadas as exceções customizadas para a resolução da tarefa 1.
 
-## Projeto de tete
+## Projeto de teste
 * O projeto "Paradigma.Tarefa1.Tests" contém os testes necessários, que rodam para a classe "TreeNodeRepresentation".
