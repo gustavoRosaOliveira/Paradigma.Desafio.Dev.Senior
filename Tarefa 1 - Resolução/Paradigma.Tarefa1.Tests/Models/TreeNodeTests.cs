@@ -7,9 +7,9 @@ namespace Paradigma.Tarefa1.Tests
     public class TreeNodeRepresentationTests
     {
         [Theory]
-        [InlineData("A,B;A,C;B,G;C,H;E,F;B,D;C,E", "A", 2, "B", "C")] // Exemplo 1
-        [InlineData("B,D;D,E;A,B;C,F;E,G;A,C", "A", 2, "B", "C")] // Exemplo 2
-        public void Build_ShouldCreateTree_WhenValidPairsAreProvided(string pairsData, string expectedRootValue, int expectedChildrenCount, string expectedChild1Value, string expectedChild2Value)
+        [InlineData("A,B;A,C;B,G;C,H;E,F;B,D;C,E", "A", "B", "C")] // Exemplo 1
+        [InlineData("B,D;D,E;A,B;C,F;E,G;A,C", "A", "B", "C")] // Exemplo 2
+        public void Build_ShouldCreateTree_WhenValidPairsAreProvided(string pairsData, string expectedRootValue, string expectedChild1Value, string expectedChild2Value)
         {
             // Arrange
             var pairs = pairsData.Split(';')
@@ -25,7 +25,7 @@ namespace Paradigma.Tarefa1.Tests
 
             // Assert
             Assert.Equal(expectedRootValue, root.Value);
-            Assert.Equal(expectedChildrenCount, root.Children.Count);
+            Assert.Equal(TreeNodeRepresentation.MAX_CHILDREN, root.Children.Count);
             Assert.Equal(expectedChild1Value, root.Children[0].Value);
             Assert.Equal(expectedChild2Value, root.Children[1].Value);
         }
