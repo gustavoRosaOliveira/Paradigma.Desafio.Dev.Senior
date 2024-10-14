@@ -1,7 +1,7 @@
-# Consulta SQL para Salários Mais Altos por Departamento
+# Tarefa 2
 
 ## Descrição
-* Este projeto contém uma consulta SQL para retornar o nome do departamento, o nome da pessoa e os salários das pessoas que possuem o maior salário em cada departamento.
+* Consulta SQL para Salários Mais Altos por Departamento
 
 ## Consulta
 

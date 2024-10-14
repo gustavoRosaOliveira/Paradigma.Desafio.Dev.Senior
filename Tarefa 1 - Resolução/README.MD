@@ -1,4 +1,4 @@
-# Consulta SQL para Salários Mais Altos por Departamento
+# Tarefa 1
 
 ## Descrição
 * Esta solução contém dois projetos, um class library e um projeto XUnit para validação do projeto class library.
